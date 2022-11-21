@@ -1,0 +1,17 @@
+인터넷 화면에 창 세게 분리 해서 띄우기
+
+<body>
+    <!-- div 디폴트 배치는 세로-->
+    <!-- 가로로 배치하고 싶으면 display : inline-block;-->
+    <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+
+    <div class="row">
+      <div class="item">오늘은 회요일입니다</div>
+      <div class="item">오늘은 회요일입니다</div>
+      <div class="item">오늘은 회요일입니다</div>
+    </div>
+  </body>
