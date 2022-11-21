@@ -1,0 +1,58 @@
+운영체제(os) : Window, Max, Linux
+운영체제는 소프트웨어(프로그램)이다
+
+회사에서는 Window or Linux를 사용하는데
+이유는 간단하다
+Linux는 무료이기 때문에
+
+Linux Ubuntu(무료) ★
+Linux CentOS(무료) 버젼 업데이트가 없어서 하락세
+Linux RedHat(유료) ★
+
+Linux 명령어
+1. ls(List) = 현재 경로에 있는 파일 및 폴더를 보여줌(사용빈도율 높음)
+2. cd(Change Directory)  = 폴더이동(사용빈도율 높음)
+   cd .. (뒤로가기)
+   cd ~ ( 처음(ROOT) 경로로 들어감
+3. mkdir (make Directory) =  폴더 만들기
+4. clear = 명령창을 깔끔하게 지워준다
+5. pwd (Print Woking Directory) 
+= 현재 내가 어디 경로에 있는지 확인
+6. vim = 에디터 만들어주는 명령어 처음에 i를 눌러줘야
+	inser모드로 변경 작성완료 후 esc를 누르고
+	:wq! 입력하면 최종 저장
+7. rm(remove) = 파일 혹은 폴더를 삭제할때 사용하는 명령어
+   rm -rf (권한 무시 강제 삭제) 뒤에 파일 이름 붙이고 삭제 
+   ex) rm - rf hello.txt
+8. history = 사용자가 사용한 명령어 보여줌
+9. ll = ls가 단순 폴더와 파일을 확인 했다면
+        ll은 만든사람, 날짜, 용량, 권한까지 상세하게 알 수 있다
+10. tail : 해당 파일을 모니터링 할 때 사용하는 명령어
+
+ctrl + c 누르면 탈출
+--------추가적 설명---------
+rw-/r--/r-- : 권한
+A   B   C	
+r : read(읽기)
+w : write(쓰기)
+x : execute(실행)
+
+A : 파일 소유자 권한 => rw-
+B : 그룹 권한 => r--
+C : 외부인 권한 => r--
+
+문제 a.txt
+위 파일은 rwxr---wx 권한을 가지고 있다
+어떤 권한을 가지고 있는지 사술하시오
+A : rwx 읽고, 쓰고, 실행까지 가능
+B : r 읽기만가능
+C : -wx 쓰고 실행가능
+r =4 (숫자로 표현했을때)
+w = 2 (숫자로 표현했을때)
+x = 1 (숫자로 표현했을때)
+
+문제 c드라이브에 linux라는 폴더를 생성 
+      linux 폴더 안에 a,b라는 폴더 각각 생성
+      b 폴더 안데 hello.txt 파일 만들기
+      a 폴더 안데 bye.txt 파일 만들기
+      linux 폴더로 들어가서 ls로 확인하기		

@@ -1,0 +1,4 @@
+JDBC문제점
+1. sql요청을 할 때 마다 jdbc에 재로그인
+2. ORM(Object Relation Mapping)한번 로그인하면 그 로그인을 유지 시키는것
+3. JAVA ORM 종류 Mybatis, JPA

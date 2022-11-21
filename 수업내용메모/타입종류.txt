@@ -1,0 +1,16 @@
+0804 목 (메소드)
+
+//리턴 타입:int
+//메소드 이름:getWord
+//파라미터 타입:String
+public int getWord(String word){
+    return 0;
+}
+//리턴 타입:void (리턴 없음)
+//메소드 이름:getArray
+//파라미터 타입:String[ ]
+//접근지정
+public void(리턴타입) getArray(메소드 이름) (String[ ] word){
+    
+}
+@ 어노테이션 이라고 부름

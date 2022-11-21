@@ -1,0 +1,11 @@
+- HTML, JS, CSS + JQuery (v)
+- JAVA
+- JAVA FX(GUI) (v) 자바를 공부한다는 생각으로 진행 
+-> C#검색하기 GUI 프로그래밍이 더 좋았던분들
+- DataBase (v)
+- C
+- Spring Boot + JSP(쉬운 버전 Spring) (v) (취업)
+- 아두이노(임베디드 프로그래밍)
+- 기능명세서, 일정 관리
+- 팀프로젝트 2개 진행예정
++ @

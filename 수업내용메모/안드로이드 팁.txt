@@ -1,0 +1,12 @@
+layout_width(가로)="match_parent"
+layout_height(세로)="wrap_content"
+
+옵션
+1. match_parent : 꽉채워라
+2. wrap_content : 알맞게
+3. 숫자고정값 : 30dp, 30px, 30sp ,,,,등등
+
+4. 숫자 0dp 고정후
+weigth를 줘서 비율로 조정
+
+5.fill_parent : 꽉채워라

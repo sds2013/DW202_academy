@@ -1,0 +1,53 @@
+? : 쿼리 스트링 ( 사이트 중간중간에 ?가 있는것)
+@PathVariable  처럼
+url에 값을 넘겨주는 방법 중 하나
+
+url에 값을 넘겨주는 방법
+1. path ex) /emp/{empno}
+2. ? ex) /emp?empno=3
+
+url(controller)
+ 값을 하나 or 둘 넘길때 path 사용
+여러 값을 넘길때 queryString 사용  
+
+src/main/java : java 소스 (여기서 코딩)
+src/main/resources : 데이터베이스 연결 정보(id, password)
+SQL, CSS, images, Javascript....
+
+Spring으로 데이터베이스 연동하는 방법
+1. gradle에 데이터베이스 라이브러리 추가( 데이터베이스 라이브러리 => jdbc.jar)
+ 1-1.구글에 mavenMYSQL 검색 
+ 1-2. https://mvnrepository.com 접속
+ 1-3. mysql gradle용 복사
+ 1-4. build.gradle에 붙여넣기
+ 1-5. mvnrepository에서 Mybatis 검색
+ 1-6. MyBatis Spring Boot Starter 클릭(4번째 위치 함)
+ 1-7. mybatis gradle용 복사
+ 1-8. build.gradle에 붙여넣기
+ 1-9. build.gradle 새로고침
+ 
+2. 속성파일에 DB아이디 , 비밀번호 작성
+ 2-1. properties 확장명을 yaml(야믈)르오 수정
+ 2-2. DB 접속 정보 입력
+ 
+3. Spring과 mybatis(ORM) 연결
+ 3-1. resources경로에 sqlmap 폴더 생성 (new -> Package)
+ 3-2.  sqlmap에 xml파일생성(이름은 sqlmapper_(하고싶은 이름).xml
+ 3-3.  속성파일(yaml)에 sqlmaaper_*.xml 경로작성
+
+4. 결과 확인하기
+ 4-1. xml에 쿼리 작성
+ 4-2. 
+
+
+
+
+
+
+
+
+
+
+
+
+

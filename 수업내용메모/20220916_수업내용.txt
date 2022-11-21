@@ -1,0 +1,32 @@
+/src/main/java => java 소스만
+/src/main/resources => HTML, CSS, images 등등 ,속성파일(프로퍼티스)
+	properties => yaml
+	sql
+
+build.gradle => 우리가 사용하고싶은 라이브러리
+
+
+XML 파일에 SQL문을 작성하면
+Mybatis라는 ORM 소프트웨어가 DB에 접속해서 SQL실행 후  결과를
+자바소스로 매핑(연결)시켜줌
+
+emp 테이블 기준
+empno (PK) : null 허용 금지
+deptno (FK) : null 허용 가능
+  fk는 null을 허용함
+단, fk에 not null 조건을 하지 않았다면
+
+ex)@GetMapping
+
+HTTP method
+Get: SELECT (조회)
+POST: INSERT (생성)
+PATCH: UPDATE (수정)
+DELETE: DELETE (삭제)
+
+
+
+
+
+
+
